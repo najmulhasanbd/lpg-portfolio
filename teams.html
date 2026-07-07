@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css  ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.default.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3 fixed-top" style="z-index: 1020;">
+            <div class="container">
+                <a class="navbar-brand d-flex flex-column align-items-center me-lg-5" href="#">
+                    <div class="logo-icon d-flex">
+                        <span class="logo-r">R</span>
+                        <span class="logo-m">M</span>
+                    </div>
+                    <span class="logo-text mt-1">AUTOMOBILES</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header border-bottom">
+                        <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto align-items-center fw-bold text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="teams.html" class="nav-link active px-3"
+                                    aria-current="page">Teams</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Page Title Banner -->
+    <section class="page-title-banner py-5 text-center text-white mt-4" style="background-color: #1a5c8a;">
+        <div class="container py-4 mt-5">
+            <h1 class="display-4 fw-bolder mb-2 text-white">Our Team</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white text-decoration-none">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white opacity-75" aria-current="page">Our Team</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <section class="teams-section py-5 my-5">
+        <div class="container text-center">
+            <h2 class="fw-bolder mb-5">Meet Our Experts</h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Team Member 1 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Nafis Rahman">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Nafis Rahman</h4>
+                            <p class="text-cyan fw-semibold mb-0">Managing Director</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Abdul Karim">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Abdul Karim</h4>
+                            <p class="text-cyan fw-semibold mb-0">Head of Operations</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Ayesha Siddiqua">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Ayesha Siddiqua</h4>
+                            <p class="text-cyan fw-semibold mb-0">Marketing Lead</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Rahim Uddin">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Rahim Uddin</h4>
+                            <p class="text-cyan fw-semibold mb-0">Sales Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 5 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Sarah Khan">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Sarah Khan</h4>
+                            <p class="text-cyan fw-semibold mb-0">HR Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 6 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Tariqul Islam">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Tariqul Islam</h4>
+                            <p class="text-cyan fw-semibold mb-0">Chief Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 7 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1598550874175-4d0ef436c909?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Fatema Akter">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Fatema Akter</h4>
+                            <p class="text-cyan fw-semibold mb-0">Finance Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 8 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Imran Hossain">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Imran Hossain</h4>
+                            <p class="text-cyan fw-semibold mb-0">Logistics Head</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 9 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Nadia Begum">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Nadia Begum</h4>
+                            <p class="text-cyan fw-semibold mb-0">Customer Support</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 10 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Shafiqul Alam">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Shafiqul Alam</h4>
+                            <p class="text-cyan fw-semibold mb-0">Quality Control</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 11 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Sajid Hasan">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Sajid Hasan</h4>
+                            <p class="text-cyan fw-semibold mb-0">Tech Lead</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 12 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Rumana Islam">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Rumana Islam</h4>
+                            <p class="text-cyan fw-semibold mb-0">Design Head</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 13 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Kamrul Hasan">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Kamrul Hasan</h4>
+                            <p class="text-cyan fw-semibold mb-0">Field Inspector</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 14 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Tania Rahman">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Tania Rahman</h4>
+                            <p class="text-cyan fw-semibold mb-0">Public Relations</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 15 -->
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="card border-0 shadow-sm modern-hover h-100 team-card overflow-hidden">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=600&h=800&fit=crop"
+                                class="card-img-top object-fit-cover" style="height: 450px;" alt="Jalal Ahmed">
+                            <div class="team-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="team-social-icon m-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body py-4 text-center">
+                            <h4 class="fw-bolder text-dark mb-1">Jalal Ahmed</h4>
+                            <p class="text-cyan fw-semibold mb-0">Supply Chain Mgr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-section pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4 g-lg-5 mb-3">
+
+                <div
+                    class="col-lg-4 text-center text-lg-start d-flex flex-column align-items-center align-items-lg-start">
+                    <h2 class="fw-bolder text-white mb-0" style="letter-spacing: -1px;"><span
+                            class="text-cyan">RM</span> AUTOMOBILES</h2>
+                    <p class="text-light-gray small mt-4 pt-1 mb-0 opacity-75">All Rights Reserved © 2024 by RM
+                        Automobiles BD.</p>
+                </div>
+
+                <div class="col-lg-3 text-center text-lg-start">
+                    <h5 class="text-white fw-bold mb-4">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-3"><a href="#">Terms & Condition</a></li>
+                        <li class="mb-3"><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Events & Activities</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 text-center text-lg-start">
+                    <h5 class="text-white fw-bold mb-4">Contact Us</h5>
+                    <ul class="list-unstyled footer-contact text-light-gray small lh-lg opacity-75">
+                        <li class="mb-2"><strong class="text-white opacity-100 fw-semibold">Address:</strong> 56/2
+                            Dynasty Wahed Tower, West Panthapth, Dhaka 1205, Bangladesh</li>
+                        <li class="mb-2"><strong class="text-white opacity-100 fw-semibold">Phone:</strong>
+                            +8801708415900</li>
+                        <li class="mb-2"><strong class="text-white opacity-100 fw-semibold">Email:</strong>
+                            rmautomobiles.dhk@gmail.com</li>
+                        <li><strong class="text-white opacity-100 fw-semibold">For Business Collaboration:</strong>
+                            nafis.rmautomobiles@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center pt-4 mt-2">
+                <p class="text-light-gray small mb-0 opacity-75">Developed by: <strong
+                        class="text-white opacity-100 fw-semibold">Classic IT & Sky Mart Ltd</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

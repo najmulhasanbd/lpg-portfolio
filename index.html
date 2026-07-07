@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css  ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.default.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -16,7 +19,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2 custom-navbar">
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3 fixed-top" style="z-index: 1020;">
             <div class="container">
                 <a class="navbar-brand d-flex flex-column align-items-center me-lg-5" href="#">
                     <div class="logo-icon d-flex">
@@ -40,19 +43,19 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav ms-auto align-items-center fw-bold text-uppercase">
                             <li class="nav-item">
-                                <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active px-3" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">About Us</a>
+                                <a class="nav-link px-3" href="about.html">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Teams</a>
+                                <a class="nav-link px-3" href="teams.html">Teams</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Gallery</a>
+                                <a class="nav-link px-3" href="gallery.html">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Contact Us</a>
+                                <a class="nav-link px-3" href="contact.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -61,8 +64,7 @@
         </nav>
     </header>
 
-    <!-- Hero Slider Section -->
-    <section class="hero-slider">
+    <section class="hero-slider" id="home">
         <div class="owl-carousel owl-theme" id="main-slider">
             <div class="item slider-item">
                 <img src="https://loremflickr.com/1920/1080/fire,gas/all?lock=1" alt="Blue Gas Flame" class="slider-bg">
@@ -100,58 +102,49 @@
                     </div>
                 </div>
             </div>
-
-            <div class="item slider-item">
-                <img src="https://loremflickr.com/1920/1080/industry,gas/all?lock=3" alt="Industrial Gas"
-                    class="slider-bg">
-                <div class="slider-overlay"></div>
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center text-center justify-content-center">
-                        <div class="col-md-8 col-lg-8 text-white slider-content">
-                            <h5 class="text-uppercase fw-bold text-cyan mb-3 slider-anim-1">Eco-friendly</h5>
-                            <h1 class="display-3 fw-bolder mb-4 slider-anim-2">Clean Energy For The Future</h1>
-                            <p class="lead mb-4 slider-anim-3">Switch to our environmentally friendly LPG solutions and
-                                reduce your carbon footprint today with high-efficiency energy.</p>
-                            <a href="#"
-                                class="btn btn-shop px-5 py-3 text-white fw-bold text-uppercase slider-anim-4">Contact
-                                Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about-section py-5 my-4">
+    <section class="about-section py-5 my-5" id="about">
         <div class="container py-lg-4">
-            <!-- Top Heading -->
+
             <div class="row justify-content-center text-center mb-5 pb-3">
                 <div class="col-lg-9">
                     <h2 class="fw-bolder mb-4 text-dark display-6">Welcome To RM Automobiles</h2>
-                    <p class="text-muted lead fs-6 lh-lg">RM Automobiles is a fast-growing brand within the premium lubricant oil space, and we intend to innovate the space by leveraging on great opportunities via working within the current market and, together, overcoming industry challenges with a variety of engine oils and to provide more power for every drop of our products.</p>
+                    <p class="text-muted lead fs-6 lh-lg">RM Automobiles is a fast-growing brand within the premium
+                        lubricant oil space, and we intend to innovate the space by leveraging on great opportunities
+                        via working within the current market and, together, overcoming industry challenges with a
+                        variety of engine oils and to provide more power for every drop of our products.</p>
                 </div>
             </div>
 
-            <!-- Content Row -->
             <div class="row align-items-center mt-3">
-                <!-- Left Text -->
+
                 <div class="col-lg-6 mb-5 mb-lg-0 pe-lg-5 text-start order-2 order-lg-1">
                     <h6 class="text-cyan fw-bold mb-4 text-uppercase letter-spacing-1">Who We Are</h6>
                     <p class="text-muted text-justify lh-lg mb-0 about-text">
-                        With a steadfast commitment to excellence and ethical trading practices, we strive to elevate standards and reach new heights in the automotive industry. At RM Automobiles, we take pride in our role as exclusive distributors of premium products, ensuring that only the finest quality reaches our valued customers. With four seamlessly integrated divisions, each playing a unique role in our operations, we work tirelessly to exceed expectations and set new benchmarks for success. From importing the highest quality products internationally to serving our local market with unparalleled service, RM Automobiles is dedicated to driving innovation and excellence every step of the way. Join us on our journey as we continue to push boundaries and redefine automotive excellence in Bangladesh and beyond.
+                        With a steadfast commitment to excellence and ethical trading practices, we strive to elevate
+                        standards and reach new heights in the automotive industry. At RM Automobiles, we take pride in
+                        our role as exclusive distributors of premium products, ensuring that only the finest quality
+                        reaches our valued customers. With four seamlessly integrated divisions, each playing a unique
+                        role in our operations, we work tirelessly to exceed expectations and set new benchmarks for
+                        success. From importing the highest quality products internationally to serving our local market
+                        with unparalleled service, RM Automobiles is dedicated to driving innovation and excellence
+                        every step of the way. Join us on our journey as we continue to push boundaries and redefine
+                        automotive excellence in Bangladesh and beyond.
                     </p>
                 </div>
-                
-                <!-- Right Image -->
+
                 <div class="col-lg-6 text-center text-lg-end order-1 order-lg-2 mb-4 mb-lg-0">
-                    <div class="about-img-wrapper d-inline-block position-relative rounded-4 overflow-hidden shadow-lg modern-hover">
-                        <img src="https://loremflickr.com/800/600/teamwork,technology/all?lock=5" alt="RM Automobiles Team" class="img-fluid w-100 object-fit-cover">
+                    <div
+                        class="about-img-wrapper d-inline-block position-relative rounded-4 overflow-hidden shadow-lg modern-hover">
+                        <img src="https://loremflickr.com/800/600/teamwork,technology/all?lock=5"
+                            alt="RM Automobiles Team" class="img-fluid w-100 object-fit-cover">
                     </div>
-                    
-                    <!-- Link Button -->
+
                     <div class="mt-4 mt-lg-5 text-center px-lg-5">
-                        <a href="#" class="btn-learn-more text-cyan fw-bold text-decoration-none text-uppercase d-inline-flex align-items-center transition-all">
+                        <a href="#"
+                            class="btn-learn-more text-cyan fw-bold text-decoration-none text-uppercase d-inline-flex align-items-center transition-all">
                             <i class="fa-solid fa-arrow-right me-2"></i> Learn More About Us
                         </a>
                     </div>
@@ -160,51 +153,52 @@
         </div>
     </section>
 
-    <!-- Full Width Video Banner Section -->
-    <section class="video-banner position-relative w-100 overflow-hidden d-flex align-items-center justify-content-center">
-        <!-- Autoplay Muted Video -->
-        <video autoplay loop muted playsinline class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" style="z-index: 0;">
-            <!-- Using a high quality placeholder abstract video from mixkit -->
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-sky-in-a-sunset-26070-large.mp4" type="video/mp4">
-            <!-- Fallback URL if mixkit fails -->
+    <section
+        class="video-banner position-relative w-100 overflow-hidden d-flex align-items-center justify-content-center">
+        <video autoplay loop muted playsinline class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+            style="z-index: 0;">
+            <source
+                src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-sky-in-a-sunset-26070-large.mp4"
+                type="video/mp4">
             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        
-        <!-- Dark Overlay -->
+
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50" style="z-index: 1;"></div>
-        
-        <!-- Video Content -->
+
         <div class="container position-relative text-center py-5" style="z-index: 2;">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-white">
                     <h5 class="text-uppercase fw-bold text-cyan mb-3 letter-spacing-1">Innovation In Motion</h5>
                     <h2 class="display-5 fw-bolder mb-4">Driving The Future Of Energy</h2>
-                    <p class="lead mb-4">Experience unparalleled performance and sustainability with our cutting-edge solutions designed for the modern world.</p>
+                    <p class="lead mb-4">Experience unparalleled performance and sustainability with our cutting-edge
+                        solutions designed for the modern world.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
     <section class="features-section py-5 bg-cyan">
         <div class="container py-lg-5">
-            <!-- Heading -->
             <div class="row justify-content-center mb-5 pb-3">
                 <div class="col-lg-8 text-center text-white">
-                    <h2 class="fw-bold">Quality, diversifications, customer<br>satisfaction We COUNT</h2>
+                    <h2 class="fw-bold">Quality, diversifications, customer<br class="d-none d-md-block">satisfaction We
+                        COUNT</h2>
                 </div>
             </div>
 
-            <!-- Cards -->
             <div class="row g-4">
-                <!-- Card 1 -->
+
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card bg-white h-100 position-relative overflow-hidden p-4 p-xl-5 d-flex flex-column shadow-sm">
+                    <div
+                        class="feature-card bg-white h-100 position-relative overflow-hidden p-4 p-xl-5 d-flex flex-column shadow-sm">
                         <h5 class="fw-bold text-dark-blue mb-4">Innovation at the Core</h5>
-                        <p class="text-muted small flex-grow-1 lh-lg text-justify mb-5">We thrive on innovation, consistently pushing the boundaries of what's possible to provide solutions that make a difference.</p>
+                        <p class="text-muted small flex-grow-1 lh-lg text-justify mb-5">We thrive on innovation,
+                            consistently pushing the boundaries of what's possible to provide solutions that make a
+                            difference.</p>
                         <div class="mt-auto position-relative z-2">
-                            <a href="#" class="text-cyan fw-bold text-decoration-none small text-uppercase learn-more-link">
+                            <a href="#"
+                                class="text-cyan fw-bold text-decoration-none small text-uppercase learn-more-link">
                                 <i class="fa-solid fa-arrow-right me-1"></i> Learn More
                             </a>
                         </div>
@@ -214,13 +208,15 @@
                     </div>
                 </div>
 
-                <!-- Card 2 -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card bg-white h-100 position-relative overflow-hidden p-4 p-xl-5 d-flex flex-column shadow-sm">
+                    <div
+                        class="feature-card bg-white h-100 position-relative overflow-hidden p-4 p-xl-5 d-flex flex-column shadow-sm">
                         <h5 class="fw-bold text-dark-blue mb-4">Uncompromising Quality</h5>
-                        <p class="text-muted small flex-grow-1 lh-lg text-justify mb-5">Quality is non-negotiable. Our products are backed by rigorous quality control and industry certifications.</p>
+                        <p class="text-muted small flex-grow-1 lh-lg text-justify mb-5">Quality is non-negotiable. Our
+                            products are backed by rigorous quality control and industry certifications.</p>
                         <div class="mt-auto position-relative z-2">
-                            <a href="#" class="text-cyan fw-bold text-decoration-none small text-uppercase learn-more-link">
+                            <a href="#"
+                                class="text-cyan fw-bold text-decoration-none small text-uppercase learn-more-link">
                                 <i class="fa-solid fa-arrow-right me-1"></i> Learn More
                             </a>
                         </div>
@@ -230,13 +226,15 @@
                     </div>
                 </div>
 
-                <!-- Card 3 -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card bg-white h-100 position-relative overflow-hidden p-4 p-xl-5 d-flex flex-column shadow-sm">
+                    <div
+                        class="feature-card bg-white h-100 position-relative overflow-hidden p-4 p-xl-5 d-flex flex-column shadow-sm">
                         <h5 class="fw-bold text-dark-blue mb-4">Customer-Centric Approach</h5>
-                        <p class="text-muted small flex-grow-1 lh-lg text-justify mb-5">Your success is our success. We build lasting partnerships through exceptional after-sales service and support.</p>
+                        <p class="text-muted small flex-grow-1 lh-lg text-justify mb-5">Your success is our success. We
+                            build lasting partnerships through exceptional after-sales service and support.</p>
                         <div class="mt-auto position-relative z-2">
-                            <a href="#" class="text-cyan fw-bold text-decoration-none small text-uppercase learn-more-link">
+                            <a href="#"
+                                class="text-cyan fw-bold text-decoration-none small text-uppercase learn-more-link">
                                 <i class="fa-solid fa-arrow-right me-1"></i> Learn More
                             </a>
                         </div>
@@ -246,13 +244,15 @@
                     </div>
                 </div>
 
-                <!-- Card 4 -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card bg-white h-100 position-relative overflow-hidden p-4 p-xl-5 d-flex flex-column shadow-sm">
+                    <div
+                        class="feature-card bg-white h-100 position-relative overflow-hidden p-4 p-xl-5 d-flex flex-column shadow-sm">
                         <h5 class="fw-bold text-dark-blue mb-4">Sustainability</h5>
-                        <p class="text-muted small flex-grow-1 lh-lg text-justify mb-5">We are committed to sustainable practices, offering eco-friendly solutions that reduce environmental impact.</p>
+                        <p class="text-muted small flex-grow-1 lh-lg text-justify mb-5">We are committed to sustainable
+                            practices, offering eco-friendly solutions that reduce environmental impact.</p>
                         <div class="mt-auto position-relative z-2">
-                            <a href="#" class="text-cyan fw-bold text-decoration-none small text-uppercase learn-more-link">
+                            <a href="#"
+                                class="text-cyan fw-bold text-decoration-none small text-uppercase learn-more-link">
                                 <i class="fa-solid fa-arrow-right me-1"></i> Learn More
                             </a>
                         </div>
@@ -265,10 +265,9 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section class="services-section py-5 my-5">
         <div class="container py-lg-4">
-            <!-- Section Heading -->
+
             <div class="row justify-content-center text-center mb-5 pb-4">
                 <div class="col-lg-8">
                     <h6 class="text-cyan fw-bold text-uppercase letter-spacing-1 mb-2">Our Service</h6>
@@ -276,9 +275,8 @@
                 </div>
             </div>
 
-            <!-- Service Cards -->
             <div class="row g-4 g-lg-5">
-                <!-- Service 1 -->
+
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card h-100 p-3">
                         <div class="d-flex align-items-center mb-4">
@@ -287,11 +285,14 @@
                             </div>
                             <h5 class="fw-bold m-0 lh-base">Importing International Engine Oil</h5>
                         </div>
-                        <p class="text-muted small text-justify lh-lg mb-0 service-text">We specialize in sourcing and importing high-quality engine oils from renowned manufacturers across Asia and Europe. Our selection includes brands like Hi Power, Power Up, and Repsol, known for their superior performance and reliability. By importing these premium oils, we aim to enhance the drivin..</p>
+                        <p class="text-muted small text-justify lh-lg mb-0 service-text">We specialize in sourcing and
+                            importing high-quality engine oils from renowned manufacturers across Asia and Europe. Our
+                            selection includes brands like Hi Power, Power Up, and Repsol, known for their superior
+                            performance and reliability. By importing these premium oils, we aim to enhance the drivin..
+                        </p>
                     </div>
                 </div>
 
-                <!-- Service 2 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card h-100 p-3">
                         <div class="d-flex align-items-center mb-4">
@@ -300,11 +301,13 @@
                             </div>
                             <h5 class="fw-bold m-0 lh-base">Manufacturing Raw Materials</h5>
                         </div>
-                        <p class="text-muted small text-justify lh-lg mb-0 service-text">At our own factory, we focus on producing essential raw materials vital for daily automobile usage and production. From aluminum stearic powder to propylene and grease, our manufacturing processes adhere to strict quality standards to ensure consistency and reliability.</p>
+                        <p class="text-muted small text-justify lh-lg mb-0 service-text">At our own factory, we focus on
+                            producing essential raw materials vital for daily automobile usage and production. From
+                            aluminum stearic powder to propylene and grease, our manufacturing processes adhere to
+                            strict quality standards to ensure consistency and reliability.</p>
                     </div>
                 </div>
 
-                <!-- Service 3 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card h-100 p-3">
                         <div class="d-flex align-items-center mb-4">
@@ -313,16 +316,348 @@
                             </div>
                             <h5 class="fw-bold m-0 lh-base">Brand Owner of Ravo X</h5>
                         </div>
-                        <p class="text-muted small text-justify lh-lg mb-0 service-text">Introducing Ravo X, our very own product proudly manufactured in countries like the UAE, Malaysia, and China. As the brand owner, we oversee the production and distribution of Ravo X, a premium automotive solution designed to meet the diverse needs of drivers worldwide. With Ravo ..</p>
+                        <p class="text-muted small text-justify lh-lg mb-0 service-text">Introducing Ravo X, our very
+                            own product proudly manufactured in countries like the UAE, Malaysia, and China. As the
+                            brand owner, we oversee the production and distribution of Ravo X, a premium automotive
+                            solution designed to meet the diverse needs of drivers worldwide. With Ravo ..</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="stats-section pb-5 mb-4">
+        <div class="container">
+            <div class="stats-box rounded-0 p-4 p-md-5">
+                <div class="row text-white g-4">
+
+                    <div class="col-6 col-md-3 d-flex flex-column align-items-center align-items-md-start">
+                        <h2 class="display-4 fw-bolder mb-1"><span class="odometer" id="odo-1">0</span>+</h2>
+                        <div class="d-flex align-items-center">
+                            <span class="me-2 fs-4 lh-1">&bull;</span>
+                            <span class="small text-uppercase fw-bold lh-sm"
+                                style="font-size: 11px;">Exclusive<br>Distributorship</span>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 d-flex flex-column align-items-center align-items-md-start">
+                        <h2 class="display-4 fw-bolder mb-1"><span class="odometer" id="odo-2">0</span>+</h2>
+                        <div class="d-flex align-items-center">
+                            <span class="me-2 fs-4 lh-1">&bull;</span>
+                            <span class="small text-uppercase fw-bold lh-sm"
+                                style="font-size: 11px;">Imported<br>Products</span>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 d-flex flex-column align-items-center align-items-md-start">
+                        <h2 class="display-4 fw-bolder mb-1"><span class="odometer" id="odo-3">0</span>+</h2>
+                        <div class="d-flex align-items-center">
+                            <span class="me-2 fs-4 lh-1">&bull;</span>
+                            <span class="small text-uppercase fw-bold lh-sm" style="font-size: 11px;">Countries
+                                In<br>Business With</span>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 d-flex flex-column align-items-center align-items-md-start">
+                        <h2 class="display-4 fw-bolder mb-1"><span class="odometer" id="odo-4">0</span>+</h2>
+                        <div class="d-flex align-items-center">
+                            <span class="me-2 fs-4 lh-1">&bull;</span>
+                            <span class="small text-uppercase fw-bold lh-sm"
+                                style="font-size: 11px;">Active<br>Divisions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section py-5 my-4">
+        <div class="container py-lg-4">
+
+            <div class="row justify-content-center text-center mb-5 pb-3">
+                <div class="col-lg-8">
+                    <h6 class="text-cyan fw-bold text-uppercase letter-spacing-1 mb-2">FAQ</h6>
+                    <h2 class="fw-bolder text-dark display-6">Read Most Frequent Questions</h2>
+                </div>
+            </div>
+
+            <div class="row g-4 g-lg-5">
+
+                <div class="col-lg-6">
+                    <div class="accordion custom-accordion" id="faqAccordionLeft">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Which engine oil is best for cars in Bangladesh?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordionLeft">
+                                <div class="accordion-body text-muted lh-lg">
+                                    However, as Bangladesh typically experiences high temperatures and humidity, it is
+                                    recommended to use engine oils with a higher viscosity, such as 10W-40 or 20W-50.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Which engine oil gives more mileage?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordionLeft">
+                                <div class="accordion-body text-muted lh-lg">
+                                    Synthetic oils generally provide better mileage and engine protection compared to
+                                    conventional oils, as they reduce engine friction more effectively.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Is Repsol oil good for cars?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordionLeft">
+                                <div class="accordion-body text-muted lh-lg">
+                                    Yes, Repsol is a highly reputable brand known globally for producing premium,
+                                    high-performance engine oils suitable for various driving conditions.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="accordion custom-accordion" id="faqAccordionRight">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Which country made Repsol oil?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faqAccordionRight">
+                                <div class="accordion-body text-muted lh-lg">
+                                    Repsol is a Spanish multinational energy and petrochemical company, and its
+                                    high-quality oils are originally formulated and produced in Spain.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Which engine oil grade is better?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#faqAccordionRight">
+                                <div class="accordion-body text-muted lh-lg">
+                                    The "better" grade entirely depends on your vehicle's engine design and climate.
+                                    Always refer to your vehicle manufacturer's manual for the recommended grade.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                    What is the strategy of RM Automobiles to engine oil import?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix"
+                                data-bs-parent="#faqAccordionRight">
+                                <div class="accordion-body text-muted lh-lg">
+                                    This strategic partnership enabled us to introduce high-quality engine oils for both
+                                    two and four-wheelers, including our proprietary brand, "Ravo X," sourced from UAE,
+                                    China, and Malaysia.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section py-5 mb-5" id="contact">
+        <div class="container py-lg-4">
+            <div class="row g-5">
+
+                <div class="col-lg-6 pe-lg-5">
+                    <h6 class="text-cyan fw-bold text-uppercase letter-spacing-1 mb-3">Contact Details</h6>
+                    <h2 class="fw-bolder text-dark display-6 mb-4">Contact us</h2>
+                    <p class="text-muted lh-lg mb-5">Give us a call or drop by anytime, we endeavour to
+                        answer all enquiries within 24 hours on business days. We will be happy to answer your
+                        questions.</p>
+
+                    <div class="contact-info">
+                        <div class="d-flex mb-4">
+                            <div class="contact-icon me-4 mt-1">
+                                <i class="fa-solid fa-globe fs-2 text-cyan"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Our Address:</h6>
+                                <p class="text-muted small mb-0">56/2 Dynasty Wahed Tower, West Panthapth,<br>Dhaka
+                                    1205, Bangladesh</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <div class="contact-icon me-4 mt-1">
+                                <i class="fa-solid fa-envelope fs-2 text-cyan"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Our Mailbox:</h6>
+                                <p class="text-muted small mb-0">rmautomobiles.dhk@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="contact-icon me-4 mt-1">
+                                <i class="fa-solid fa-phone-volume fs-2 text-cyan"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Our Phone:</h6>
+                                <p class="text-muted small mb-0">+8801708415900</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="contact-form-box p-4 p-md-5 h-100 shadow-lg rounded-3">
+                        <h3 class="text-white fw-bold mb-2">Ready to Get Started?</h3>
+                        <p class="text-white small mb-4 opacity-75">Your email address will not be published. Required
+                            fields are marked *</p>
+
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control custom-input" placeholder="Your Name *" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control custom-input" placeholder="Your Email *"
+                                    required>
+                            </div>
+                            <div class="mb-4">
+                                <textarea class="form-control custom-input" rows="4" placeholder="Message..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn btn-light fw-bold px-4 py-2 text-dark rounded-1 shadow-sm form-submit-btn">SEND
+                                MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-section py-5 bg-light">
+        <div class="container py-3">
+            <div class="owl-carousel owl-theme" id="brand-slider">
+
+                <div class="item px-4 text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Toyota_Logo.svg" alt="Toyota"
+                        class="img-fluid mx-auto opacity-75 hover-opacity-100 transition-opacity"
+                        style="max-height: 50px; width: auto;">
+                </div>
+
+                <div class="item px-4 text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda_Logo.svg" alt="Honda"
+                        class="img-fluid mx-auto opacity-75 hover-opacity-100 transition-opacity"
+                        style="max-height: 50px; width: auto;">
+                </div>
+
+                <div class="item px-4 text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" alt="Ford"
+                        class="img-fluid mx-auto opacity-75 hover-opacity-100 transition-opacity"
+                        style="max-height: 50px; width: auto;">
+                </div>
+
+                <div class="item px-4 text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt="BMW"
+                        class="img-fluid mx-auto opacity-75 hover-opacity-100 transition-opacity"
+                        style="max-height: 50px; width: auto;">
+                </div>
+
+                <div class="item px-4 text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Hyundai_Motor_Company_logo.svg"
+                        alt="Hyundai" class="img-fluid mx-auto opacity-75 hover-opacity-100 transition-opacity"
+                        style="max-height: 50px; width: auto;">
+                </div>
+
+                <div class="item px-4 text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg" alt="Mercedes"
+                        class="img-fluid mx-auto opacity-75 hover-opacity-100 transition-opacity"
+                        style="max-height: 50px; width: auto;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4 g-lg-5 mb-3">
+
+                <div
+                    class="col-lg-4 text-center text-lg-start d-flex flex-column align-items-center align-items-lg-start">
+                    <h2 class="fw-bolder text-white mb-0" style="letter-spacing: -1px;"><span
+                            class="text-cyan">RM</span> AUTOMOBILES</h2>
+                    <p class="text-light-gray small mt-4 pt-1 mb-0 opacity-75">All Rights Reserved © 2024 by RM
+                        Automobiles BD.</p>
+                </div>
+
+                <div class="col-lg-3 text-center text-lg-start">
+                    <h5 class="text-white fw-bold mb-4">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-3"><a href="#">Terms & Condition</a></li>
+                        <li class="mb-3"><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Events & Activities</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 text-center text-lg-start">
+                    <h5 class="text-white fw-bold mb-4">Contact Us</h5>
+                    <ul class="list-unstyled footer-contact text-light-gray small lh-lg opacity-75">
+                        <li class="mb-2"><strong class="text-white opacity-100 fw-semibold">Address:</strong> 56/2
+                            Dynasty Wahed Tower, West Panthapth, Dhaka 1205, Bangladesh</li>
+                        <li class="mb-2"><strong class="text-white opacity-100 fw-semibold">Phone:</strong>
+                            +8801708415900</li>
+                        <li class="mb-2"><strong class="text-white opacity-100 fw-semibold">Email:</strong>
+                            rmautomobiles.dhk@gmail.com</li>
+                        <li><strong class="text-white opacity-100 fw-semibold">For Business Collaboration:</strong>
+                            nafis.rmautomobiles@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center pt-4 mt-2">
+                <p class="text-light-gray small mb-0 opacity-75">Developed by: <strong
+                        class="text-white opacity-100 fw-semibold">Classic IT & Sky Mart Ltd</strong></p>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

@@ -1,0 +1,101 @@
+/* Tablet & Mobile (max-width: 991px) */
+@media (max-width: 991px) {
+    .hero-slider .slider-item {
+        height: 70vh;
+        min-height: 450px;
+    }
+    .hero-slider .display-3 {
+        font-size: 3.5rem;
+    }
+    
+    /* Hide top bar on smaller screens to save space */
+    .top-bar {
+        display: none !important;
+    }
+    
+    .stats-box {
+        padding: 30px 20px !important;
+    }
+    .stats-box .display-4 {
+        font-size: 2.8rem;
+    }
+}
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    /* Hero Section */
+    .hero-slider .slider-item {
+        height: 60vh;
+        min-height: 400px;
+    }
+    .hero-slider .display-3 {
+        font-size: 2.5rem;
+    }
+    .hero-slider .lead {
+        font-size: 1rem;
+    }
+    .hero-slider .btn-shop {
+        padding: 12px 30px !important;
+        font-size: 14px;
+    }
+    
+    /* General Typography */
+    .display-5 {
+        font-size: 2.2rem;
+    }
+    .display-6 {
+        font-size: 1.8rem;
+    }
+    
+    /* Responsive Spacing Reductions */
+    .py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+    .my-5 {
+        margin-top: 2.5rem !important;
+        margin-bottom: 2.5rem !important;
+    }
+    .mb-5 {
+        margin-bottom: 2rem !important;
+    }
+    
+    /* Video Banner Fix */
+    .video-banner {
+        height: auto !important;
+        min-height: 400px;
+        padding: 4rem 1rem !important;
+    }
+    
+    /* Features Section Heading Fix */
+    .features-section h2.fw-bold {
+        font-size: 1.8rem;
+    }
+    
+    /* Contact Section Alignment */
+    .contact-form-box {
+        margin-top: 1rem;
+        padding: 30px 20px !important;
+    }
+    
+    /* Stats Box Centering */
+    .stats-box {
+        text-align: center;
+    }
+    .stats-box .d-flex {
+        justify-content: center !important;
+    }
+    .stats-box .col-6 {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Small Mobile (max-width: 575px) */
+@media (max-width: 575px) {
+    .hero-slider .display-3 {
+        font-size: 2rem;
+    }
+    .stats-box .col-6 {
+        width: 100%; /* Stack the stats counters on very small screens */
+    }
+}
